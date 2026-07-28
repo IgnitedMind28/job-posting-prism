@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Backend stays PRIVATE — the whole worker folder is never pushed to the public repo
+worker/
+
+# Cloudflare Worker local state & secrets — NEVER commit these
+.wrangler/
+**/.dev.vars
+**/.dev.vars.*
+
+# Node
+node_modules/
